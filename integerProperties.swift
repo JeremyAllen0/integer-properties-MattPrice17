@@ -1,8 +1,8 @@
 // Allen ISD Computer Science Assignment
 // Integer Properties Project
-// John Williams
+// Matt Price
 // Computer Science I, Period 1
-// 2018.01.21
+// 2018.01.24
 
 
 /* This program will print many properties for an integer specified on the command line.
