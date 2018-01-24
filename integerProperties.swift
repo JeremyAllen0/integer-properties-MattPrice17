@@ -42,4 +42,35 @@
    
 
 
- */
+   */
+let firstthing = CommandLine.arguments[1]
+print(firstthing)
+
+let number = Int(firstthing)!
+
+print("The number is even:")
+print((number % 2) == 0)
+
+print("The number is odd:")
+print((number % 2) == 1)
+
+print("The number is evenly divisible by three:")
+print((number % 3) == 0)
+
+print("The number is evenly divisible by five:")
+print((number % 5) == 0)
+
+print("The number is evenly divisible by seven:")
+print((number % 7) == 0)
+
+print("How many groups of ten?")
+print(number / 10)
+
+print("How many groups of hundred?")
+print(number / 100)
+
+print("The additive inverse")
+print(number * (-1))
+
+
+
